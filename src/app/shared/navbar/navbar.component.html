@@ -1,4 +1,60 @@
-<mat-toolbar color="primary">
-    <span>Application Title</span>
-    <span>Right Aligned Text</span>
-</mat-toolbar>
+<!-- Navbar -->
+<nav class="navbar mainbccolor navbar-expand-lg boxshadowfornav" >
+    <!-- Container wrapper -->
+    <div class="container ">
+      <!-- Navbar brand -->
+      <!-- Image and text -->
+      <nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);"
+              src="/assets/testataa.png"
+              class="me-2"
+              height="50"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </nav>
+
+  
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="buttonsNav.toggle()"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars" style="color: white; filter:drop-shadow(0px 0px 2px rgb(0, 0, 0));"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div
+        class="collapse navbar-collapse"
+        id="navbarButtonsExample"
+        mdbCollapse
+        #buttonsNav="mdbCollapse"
+      >
+      
+        <!-- Left links -->
+  
+        <div class="navbar-nav d-flex flex-row">
+          <div class="nav-item p-2">
+            <a class="nav-link navbartext" href="#">Home</a>
+          </div>
+          <div class="nav-item p-2">
+            <a class="nav-link navbartext" href="contacts">Contacts</a>
+          </div>
+          <div class="nav-item ms-auto p-2">
+            <a class="nav-link navbartext" href="#">About</a>
+          </div>
+        </div>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->

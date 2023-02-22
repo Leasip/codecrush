@@ -6,7 +6,7 @@
       <!-- Image and text -->
       <nav>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand zoom"  href="#">
             <img
               style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);"
               src="/assets/testataa.png"
@@ -21,16 +21,17 @@
 
   
       <!-- Toggle button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        (click)="buttonsNav.toggle()"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars" style="color: white; filter:drop-shadow(0px 0px 2px rgb(0, 0, 0));"></i>
-      </button>
-  
+      <div class="zoom">
+        <button
+          class="navbar-toggler btn btn-dark"
+          type="button"
+          (click)="buttonsNav.toggle()"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars" style="color: white; filter:drop-shadow(0px 0px 2px rgb(0, 0, 0));"></i>
+        </button>
+      </div>
       <!-- Collapsible wrapper -->
       <div
         class="collapse navbar-collapse"
@@ -41,15 +42,15 @@
       
         <!-- Left links -->
   
-        <div class="navbar-nav d-flex flex-row">
-          <div class="nav-item p-2">
-            <a class="nav-link navbartext" href="#">Home</a>
+        <div class="d-flex flex-row">
+          <div class="nav-item p-2 zoom">
+            <a class="btn btn-dark btn-rounded " href="#">Home</a>
           </div>
-          <div class="nav-item p-2">
-            <a class="nav-link navbartext" href="contacts">Contacts</a>
+          <div class="nav-item p-2 zoom">
+            <a class="btn btn-dark btn-rounded" href="contacts">Contacts</a>
           </div>
-          <div class="nav-item ms-auto p-2">
-            <a class="nav-link navbartext" href="#">About</a>
+          <div class="nav-item ms-auto p-2 zoom">
+            <a class="btn btn-dark btn-rounded" href="#">About</a>
           </div>
         </div>
       </div>

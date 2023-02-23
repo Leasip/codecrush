@@ -6,6 +6,7 @@
     color: #ffffff;
     font-size: 1.3rem;
     -webkit-filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)); filter: drop-shadow(5px 5px 5px #222);
+    
 }
 
 .shadowsss {
@@ -18,6 +19,7 @@
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
+    
   }
   
  @-moz-keyframes spin { 
@@ -32,4 +34,3 @@
         transform:rotate(360deg); 
     } 
  }
-

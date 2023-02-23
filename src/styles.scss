@@ -43,7 +43,7 @@
     transition: all ease-out 500ms;
     font-weight: bold;
   }
-.glowing {
+.glowingbar {
   width: 100%;
   border:2px solid rgb(0, 247, 255);
   box-shadow: 0 0 10px #008cff;
@@ -53,4 +53,8 @@
   margin:0;
   display:flex;
   flex-direction:column;
+}
+
+.glow {
+  filter: drop-shadow( 0 0 10px #008cff63);
 }

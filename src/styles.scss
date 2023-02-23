@@ -7,10 +7,20 @@
 
 @import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
 
-
+/*Change site main color theme*/
 .mainbccolor{
-  background-color: #ff7300;
+  background-color: #33333334;
 }
+.mainbccolordarker{
+  background-color: #00000000;
+}
+/*Change buttons color theme*/
+.darkbtn {
+  background-color: #292929;
+  color: #fff;
+  box-shadow: 0 4px 9px -4px #292929;
+}
+
 
 .boxshadowfornav{
     box-shadow:
@@ -33,3 +43,8 @@
     transition: all ease-out 500ms;
     font-weight: bold;
   }
+.glowing {
+  width: 100%;
+  border:2px solid rgb(0, 247, 255);
+  box-shadow: 0 0 10px #008cff;
+}

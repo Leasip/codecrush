@@ -62,3 +62,6 @@
 .glow {
   filter: drop-shadow( 0 0 10px #008cff63);
 }
+app-contacts, app-main, app-about {
+  flex: 1;
+}

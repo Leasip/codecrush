@@ -38,7 +38,7 @@
     box-shadow: rgba(75, 75, 75, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.zoom :hover{
+.zoom :hover {
     transform: scale(1.1);
     transition: all ease-out 500ms;
     font-weight: bold;
@@ -47,4 +47,10 @@
   width: 100%;
   border:2px solid rgb(0, 247, 255);
   box-shadow: 0 0 10px #008cff;
+}
+.body { 
+  min-height: 100vh;
+  margin:0;
+  display:flex;
+  flex-direction:column;
 }

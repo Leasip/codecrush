@@ -1,11 +1,17 @@
+.navbar {
+    flex: 1;
+}
+
 .navbartext {
     color: #ffffff;
     font-size: 1.3rem;
     -webkit-filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)); filter: drop-shadow(5px 5px 5px #222);
 }
+
 .shadowsss {
     -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);
 }
+
 .rotate {
     margin-left: 33.55px;
     position: absolute;

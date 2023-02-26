@@ -4,7 +4,7 @@
 @import '@fortawesome/fontawesome-free/scss/regular.scss';
 @import '@fortawesome/fontawesome-free/scss/brands.scss';
 @import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import 'mdb-angular-ui-kit/assets/scss/mdb.scss';
 
 /*Change site main color theme*/
@@ -24,33 +24,27 @@
 
 
 .boxshadowfornav{
-    box-shadow:
-    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-    0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12),
-    rgba(75, 75, 75, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(75, 75, 75, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .boxshadowforfooter {
     box-shadow: rgba(75, 75, 75, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.zoom :hover {
-    transform: scale(1.1);
-    transition: all ease-out 500ms;
-    font-weight: bold;
-    color: #00c3ff;
-    box-shadow: 0 4px 9px -4px #292929;
-    border:1px solid rgb(0, 247, 255);
+.buttonhover :hover{
+    background: rgb(0,133,138);
+    background: linear-gradient(0deg, rgb(0, 108, 112) 0%, rgba(0,187,194,1) 100%);
+    transition: all ease-out 200ms;
+    color: #ffffff;
+    box-shadow: 0 4px 9px -4px #000000;
+    text-shadow: 0 0 10px #000000;
   }
 .glowingbar {
   width: 100%;
   border:2px solid rgb(0, 247, 255);
   box-shadow: 0 0 10px #008cff;
+  z-index: 2;
+  
 }
 .body { 
   min-height: 100vh;

@@ -2,11 +2,8 @@
     flex: 1;
 }
 
-.navbartext {
-    color: #ffffff;
-    font-size: 1.3rem;
-    -webkit-filter: drop-shadow(5px 5px 5px rgb(0, 0, 0)); filter: drop-shadow(5px 5px 5px #222);
-    
+.textfont {
+    font-family: 'Space Mono', monospace;
 }
 
 .shadowsss {
@@ -42,3 +39,8 @@
     color:white;
     font-size:44px;
 }
+.units > :last-child {
+    transform: rotatex(180deg) translatey(15px); 
+    mask-image: linear-gradient(transparent 50%, white 90%);
+    -webkit-mask-image: linear-gradient(transparent 50%, white 90%);
+  }

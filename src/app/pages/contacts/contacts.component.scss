@@ -86,8 +86,8 @@ img {
     grid-auto-rows: minmax(100px, auto);
 }
 
-.input-div {
-
+.contact-header {
+    margin: 30px 0 30px 0;
 }
 
 input[type=text], select {
@@ -127,7 +127,7 @@ textarea {
 
 input[type=submit] {
     width: 100%;
-    background-color: rgb(0, 247, 255);
+    background-color: rgb(60, 60, 60);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -136,6 +136,15 @@ input[type=submit] {
     cursor: pointer;
     grid-column: 1 / -1;
 }
+
+input:hover[type=submit] {
+    background: rgb(0,133,138);
+    background: linear-gradient(0deg, rgb(0, 108, 112) 0%, rgba(0,187,194,1) 100%);
+    transition: all ease-out 200ms;
+    color: #ffffff;
+    box-shadow: 0 4px 9px -4px #000000;
+    text-shadow: 0 0 10px #000000;
+  }
 
 @media screen and (max-width: 575px) {
     .container {

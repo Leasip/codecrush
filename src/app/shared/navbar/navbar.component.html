@@ -6,7 +6,7 @@
       <!-- Image and text -->
       <nav>
         <div class="container-fluid">
-          <a class="navbar-brand shadowsss"  href="#">
+          <a class="navbar-brand shadowsss"  [routerLink]="['/']">
             <img
             class="rotate"
             style=""
@@ -51,13 +51,14 @@
         <!-- Left links -->
         <div class="d-flex flex-row" style="position: relative;">
           <div class="nav-item p-2 buttonhover">
-            <a class="btn darkbtn btn-rounded" href="#">Home</a>
+            <a class="btn darkbtn btn-rounded" [routerLink]="['/']" routerLinkActive="active" 
+            [routerLinkActiveOptions]="{exact:true}">Home</a>
           </div>
           <div class="nav-item p-2 buttonhover">
-            <a class="btn darkbtn btn-rounded" href="contacts">Contacts</a>
+            <a class="btn darkbtn btn-rounded" [routerLink]="['/contacts']" routerLinkActive="active">Contacts</a>
           </div>
           <div class="nav-item ms-auto p-2 buttonhover">
-            <a  class="btn darkbtn btn-rounded" href="#">About</a>
+            <a  class="btn darkbtn btn-rounded" [routerLink]="['/about']" routerLinkActive="active" >About</a>
           </div>
         </div>
       </div>

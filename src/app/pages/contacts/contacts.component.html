@@ -1,4 +1,70 @@
-<div class="content">
-    <p>contacts works!</p>
-</div>
+<main class="container maintextbox whitetext test">
+    <section class="margins">
+        <h1>YHTEYSTIEDOT</h1>
+    </section>
+    <div class="contactsCard">
+        <div class="imageDiv">
+            <div class="circleImage">
+                <img src="/assets/example.jpg" alt="Avatar">
+            </div>    
+        </div>
+        <div class="infoDiv">
+            <h2>Mikko Mallikas</h2>
+            <p>Työskennellyt 6 vuotta verrkosivujen kehityksen parissa eri teknologioilla.</p>
+            <p>mikko.mallikas@codecrush.com</p>
+            <p>0401234567</p>
+        </div>
+    </div>
 
+    <div class="contactsCard">
+        <div class="imageDiv">
+            <div class="circleImage">
+                <img id="example2" src="/assets/example2.jpg" alt="Avatar">
+            </div>    
+        </div>
+        <div class="infoDiv">
+            <h2>Maija Meikäläinen</h2>
+            <p>Ihan vaan harkkari</p>
+            <p>maija.meikalainen@codecrush.com</p>
+            <p>0401234567</p>
+        </div>
+    </div>
+
+    <div class="glowingbar margin-top margin-bottom"></div>
+
+    <div>
+        <div class="contact-header">
+            <h2>Ota yhteyttä</h2>
+        </div>
+        
+        <div class="form">
+            <div class="input-div">
+                <label for="name">NIMI</label>
+                <input type="text" id="name" name="name" placeholder="Mikko Mallikas" required>
+            </div>
+
+            <div class="input-div">
+                <label for="name">SÄHKÖPOSTI</label>
+                <input type="text" id="email" name="email" placeholder="malli@malli.com" required>
+            </div>
+            
+            <div class="input-div">
+                <label for="name">YRITYS</label>
+                <input type="text" id="company" name="company" placeholder="Yritys Oy" required>
+            </div>
+
+            <div class="input-div">
+                <label for="name">PUHELINNUMERO</label>
+                <input type="text" id="phone" name="phone" placeholder="+358 44 1234567" required>
+            </div>
+
+            <div class="area-input-div">
+                <label for="name">VIESTI</label>
+                <textarea type="text-area" id="message" name="message" required></textarea>
+            </div>
+
+            <input type="submit" value="LÄHETÄ">
+        </div>
+    </div>
+
+</main>
